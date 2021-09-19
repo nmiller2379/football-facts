@@ -5,26 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun Football Facts</title>
+    <!-- <link rel="stylesheet" href="./Assets/style.css"> -->
 </head>
 <body>
-    <h1>Fun football facts</h1>
-    <p>Below you can see up to five fun facts about either pro, college or high school football. Please select the category you'd like to see facts about.</p>
-    <h3>Please select the level of football fron which you'd like to see facts.</h3>
-    <form>
-        <input type="radio" id="pro" name="football" value="pro">
-        <label for="pro">Pro</label><br>
-        <input type="radio" id="college" name="football" value="college">
-        <label for="college">College</label><br>
-        <input type="radio" id="high_school" name="football" value="high_school">
-        <label for="high_school">High School</label>
-      </form>
-      <div>
-        <p id="number"></p>  
-        <p id="facts"></p>
-        <p id="source"></p>
-      </div>
-      <button type="button" onclick="getFacts()">Get Facts</button>
-      
+    <div class="hero">
+        <h1>Fun football facts</h1>
+        <p>Below you can see up to five fun facts about either pro, college or high school football. Please select the category you'd like to see facts about.</p>
+        <h3>Please select the level of football fron which you'd like to see facts.</h3>
+        <form>
+            <input type="radio" id="pro" name="football" value="pro">
+            <label for="pro">Pro</label><br>
+            <input type="radio" id="college" name="football" value="college">
+            <label for="college">College</label><br>
+            <input type="radio" id="high_school" name="football" value="high_school">
+            <label for="high_school">High School</label>
+        </form>
+        <div>
+            <p id="number"></p>  
+            <p id="facts">Click "Get facts" to begin.</p>
+            <p id="source"></p>
+        </div>
+        <button type="button" onclick="getFacts()">Get Facts</button>
+    </div>
 </body>
 <script src="./Assets/script.js"></script>
 </html>
